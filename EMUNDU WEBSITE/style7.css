@@ -1,0 +1,132 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+nav ul {
+  list-style-type: none;
+  background-color:rgb(122, 103, 79);
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+header
+         {
+            background-color:rgb(32, 26, 26);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+         }
+         nav ul {
+          padding: 0;
+      }
+/* CSS for dropdown menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.container {
+  display: flex; /* Use flexbox */
+ 
+}
+.paragraph 
+{
+  padding-bottom: 20px; /* Adds 20px of space inside the bottom of each paragraph */
+}
+
+.paragraph {
+  width: 40%; /* Set width to control spacing between paragraphs */
+}
+/* CSS for controlling image dimensions */
+.paragraph-container {
+      display: flex;
+  }
+  .paragraph-container img {
+      width: 100px; /* Adjust width as needed */
+      height: auto;
+      margin-right: 20px; /* Adjust margin between image and text */
+  }
+  #contact-footer
+    {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgb(234, 223, 223);
+        padding: 2px;
+        text-align: center;
+
+    }
+    .contact-icons a 
+    {
+            margin-right: 20px; /* Adjust the right margin to create space between icons */
+            display: inline-block; 
+        }
+      /* CSS for the icon */
+      .icon-image {
+          width: 30px; /* Adjust the width of the image */
+          height: auto; /* Maintain aspect ratio */
+          margin-right: 10px; /* Adjust spacing between icon and text */
+      }
+      .reach-out {
+        background-color: #f2f2f2; /* Light grey background */
+        color: #333; /* Dark text */
+        text-align: center;
+        padding: 20px 0; /* 20px padding on top and bottom */
+        margin-top: 40px; /* Add some space above the box */
+        border-top: 1px solid #ccc; /* Light grey border on the top for separation */
+    }
+    
+    .reach-out p {
+        margin: 0 0 10px 0; /* Remove default margin from p and add some space below */
+        font-size: 20px; /* Larger text size */
+    }
+    
+    .reach-out-link {
+        background-color: #007bff; /* Bootstrap primary blue */
+        color: white; /* White text */
+        padding: 10px 20px; /* Padding inside the link for a button-like appearance */
+        text-decoration: none; /* Remove underline from link */
+        border-radius: 5px; /* Rounded corners */
+    }
+    
+    .reach-out-link:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+    
